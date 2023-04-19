@@ -1,0 +1,82 @@
+.mainContainer{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: #F5F5F5;
+}
+
+.leftSide{
+    height: 95%;
+    background-color: black;
+    color: #FFFFFF;
+    text-align:left; 
+    display:table;
+    width: 25%;
+    border: none;
+    border-radius: 30px;
+}
+
+.rightSide{
+    background-color: #F5F5F5;
+    text-align:left; 
+    display:table;
+    width: 70%;
+    margin-left: 2.5%;
+}
+
+.topBoxes{
+    margin: 30px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    border-radius: 20px;
+}
+#box1{
+    background-color: #DDEFE0;
+}
+#box2{
+    background-color: #F4ECDD;
+}
+#box3{
+    background-color: #EFDADA;
+}
+#box4{
+    background-color: #DEE0EF;
+}
+
+.graphContainer{
+    min-height: 200px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.bottomFlex{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomLeft{
+    width: 45%;
+    min-height: 150px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.bottomRight{
+    width: 45%;
+    min-height: 150px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.graphHeading{
+    margin: 0 20px 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}

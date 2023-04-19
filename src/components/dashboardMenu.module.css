@@ -1,0 +1,45 @@
+.mainContainer{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 30px;
+    width: fit-content;
+}
+
+
+.logo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 10px ;
+}
+.menu div{
+    margin: 20px 10px;
+}
+.links{
+    text-decoration: none;
+    color: white
+}
+.menu div img{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 0 10px;
+}
+.footMenu{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    
+}
+.logout img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+.logout{
+    text-decoration: none;
+    color: white;
+    margin: 20px 5px 5px;
+}

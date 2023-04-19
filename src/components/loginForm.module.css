@@ -1,0 +1,89 @@
+.mainContainer{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.heading{
+    font-family: 'Montserrat', sans-serif ;
+    margin: 0;
+    font-size: 2rem;
+    width: fit-content;
+}
+.subheading{
+    margin: 10px 0 20px;
+    font-size: 1rem;
+    width: fit-content;
+    font-weight: 100;
+}
+
+.topButtons{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.loginButtons{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 45%;
+    color:#858585;
+    display: flex;
+    justify-content: center;
+}
+.loginButtons img{
+    margin: auto 5px;
+    width: 20px;
+    height: 20px;
+}
+.loginButtons div{
+    margin: auto 5px;
+    width: fit-content;
+}
+
+.formContainer{
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+.formContainer form label{
+    margin: 10px 0 5px;
+}
+.formContainer form input{
+    margin: 5px 0 10px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    border:none;
+}
+.formContainer form a{
+    text-decoration: none;
+    color: #346BD4;
+}
+.signIn{
+    font-family: 'Montserrat', sans-serif ;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.noAccount a{
+    text-decoration: none;
+    color: #346BD4;
+}
