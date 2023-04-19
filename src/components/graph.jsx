@@ -36,7 +36,7 @@ const Graph = () => {
         },
         
       ]
-    
+ 
   return (
         <div>
                 <LineChart width={800} height={150} data={data}

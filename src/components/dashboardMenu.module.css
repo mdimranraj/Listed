@@ -57,11 +57,23 @@
     }
     .menu{
         display: flex;
-
+        flex-wrap: wrap;
+    }
+    .menu div{
+        margin: 10px 10px;
+        flex: 25%;
+    }
+    .menu div img{
+        margin: 0 20px 0 0;
     }
     .menuFooter{
         display: flex;
         align-items: center;
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    .footMenu{
+        margin: 0;
     }
     .logout{
         margin: 0 5px;
