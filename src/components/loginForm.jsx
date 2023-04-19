@@ -61,7 +61,7 @@ const LoginForm = () => {
                 <label>Password</label>
                 <input type="password"></input>
                 <a style={{cursor:"pointer"}} onClick={handleOtherLogin}>Forgot Password ?</a>
-                <button className={style.signIn} type="submit" onClick={handleOtherLogin}>Sign In</button>
+                <div className={style.signIn} onClick={handleOtherLogin} style={{cursor:"pointer"}}>Sign In</div>
             </form>
         </div>
 

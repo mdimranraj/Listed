@@ -59,6 +59,22 @@
     min-height: 200px;
     border-radius: 20px;
     background-color: #ffffff;
+}
+.graphHeading{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px 0;
+    padding: 20px 20px 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.graphDate{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px 20px;
+    padding: 0 20px;
+    font-size: 0.8rem;
+    color:#858585;
+}
+.graph{
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -82,12 +98,62 @@
     background-color: #ffffff;
 }
 
-.graphHeading{
-    margin: 0 20px 20px;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 1rem;
+.pieHeadings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.pieHeadings .graphDate{
+    margin: 0 20px 0;
+    padding: 20px 20px 10px;
+}
+
+.graphFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colorTitle{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.descriptionHolder{
+    margin: 10px ;
+}
+.color{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: aqua;
+    margin: 0 10px;
+}
+#color1{
+    background-color: #98D89E;
+}
+#color2{
+    background-color: #F6DC7D;
+}
+#color3{
+    background-color: #EE8484;
+}
+
+.descTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.descNumber{
+    margin: 0 30px ;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #858585;
+    
+}
+
 
 /* small phones */
 @media (max-width: 600px) {

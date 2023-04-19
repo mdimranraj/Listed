@@ -23,11 +23,51 @@ const Dashboard = () => {
             </div>
             <div className={style.graphContainer}>
                 <div className={style.graphHeading}>Activities</div>
-                <Graph/>
+                <div className={style.graphDate}>May-June 2021 ▾</div>
+                <div className={style.graph}>
+                    <Graph/>
+                </div>
+                
             </div>
             <div className={style.bottomFlex}>
                 <div className={style.bottomLeft}>
-                    <Piegraph/>
+                    <div className={style.pieHeadings}>   
+                        <div className={style.graphHeading}>Top products</div>
+                        <div className={style.graphDate}>May-June 2021 ▾</div>
+                    </div>
+                    <div className={style.graphFlex}>
+                        <div className={style.pieContainer}>
+                            <Piegraph/>
+                        </div>
+                        <div className={style.desc}>
+                            <div className={style.descriptionHolder}>
+                                <div className={style.colorTitle}>
+                                    <div className={style.color} id={style.color1}></div>
+                                    <div className={style.descTitle}>Basic Tees</div>
+                                </div>
+                                
+                                <div className={style.descNumber}>55%</div>
+                            </div>
+                            <div className={style.descriptionHolder}>
+                                <div className={style.colorTitle}>
+                                    <div className={style.color} id={style.color2}></div>
+                                    <div className={style.descTitle}>Custom short pants</div>
+                                </div>
+                                <div className={style.descNumber}>31%</div>
+                            </div>
+                            <div className={style.descriptionHolder}>
+                                <div className={style.colorTitle}>
+                                    <div className={style.color} id={style.color3}></div>
+                                    <div className={style.descTitle}>Super Hoodies</div>
+                                </div>
+                                
+                                <div className={style.descNumber}>14%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
                 </div>
                 <div className={style.bottomRight}>
                     <Schedule/>
