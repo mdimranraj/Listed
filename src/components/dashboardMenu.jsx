@@ -32,8 +32,8 @@ const DashboardMenu = () => {
         </div>
         <div className={style.menuFooter}>
                 
-                <div className={style.footMenu} onClick={signout} style={{cursor:"pointer"}}>Help</div>
-                <div className={style.footMenu} onClick={signout} style={{cursor:"pointer"}}>Contact Us</div>
+                <div className={style.footMenu} style={{cursor:"pointer"}}>Help</div>
+                <div className={style.footMenu} style={{cursor:"pointer"}}>Contact Us</div>
                 <div className={style.logout} onClick={signout} style={{cursor:"pointer", fontWeight:"bold",fontSize:"1.2rem",letterSpacing:"2px"}}><img src="./exit.png"/>Logout</div>
 
         </div>

@@ -5,36 +5,29 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 const Graph = () => {
     const data = [
         {
-          "name": "Page A",
-          "uv": 4000,
-          "pv": 2400,
-          "amt": 2400
+          "name": "Week 1",
+          "user": 400,
+          "guest": 240,
+          "amt": 240
         },
         {
-          "name": "Page B",
-          "uv": 3000,
-          "pv": 1398,
-          "amt": 2210
+          "name": "Week 2",
+          "user": 300,
+          "guest": 139,
+          "amt": 221
         },
         {
-          "name": "Page C",
-          "uv": 2000,
-          "pv": 9800,
-          "amt": 2290
+          "name": "Week 3",
+          "user": 200,
+          "guest": 980,
+          "amt": 229
         },
         {
-          "name": "Page D",
-          "uv": 2780,
-          "pv": 3908,
-          "amt": 2000
-        },
-        {
-          "name": "Page E",
-          "uv": 1890,
-          "pv": 4800,
-          "amt": 2181
-        },
-        
+          "name": "Week 4",
+          "user": 278,
+          "guest": 390,
+          "amt": 200
+        }
       ]
  
   return (
@@ -46,8 +39,9 @@ const Graph = () => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-                <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+                <Line type="monotone" dataKey="user" stroke="#EE8484" />
+                <Line type="monotone" dataKey="guest" stroke="#98D89E" />
+                
                 </LineChart>
         </div>
 
