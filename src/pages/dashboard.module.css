@@ -29,6 +29,7 @@
 .topBoxes{
     margin: 30px 0;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -84,13 +85,63 @@
 /* small phones */
 @media (max-width: 600px) {
     .mainContainer{
-        margin: 0;   
+        margin: 0px;   
     }   
     .leftSide{
         height: fit-content;
         width: 100%;
         border-radius: 0;
+        
     }
+    .rightSide{
+        text-align:left; 
+        width: 100%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .topBoxes{
+        margin: 30px 0;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box{
+        flex: 40%;
+    }
+    #box1{
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    #box2{
+        margin-left:5px;
+        margin-bottom: 5px;
+    }
+    #box3{
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    #box4{
+        margin-left:5px;
+        margin-top: 5px;
+    }
+    .bottomFlex{
+        margin: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .bottomLeft{
+        width: 100%;
+        min-height: 150px;
+        margin-bottom: 30px;
+    }
+    .bottomRight{
+        width: 100%;
+        min-height: 150px;
+        margin-bottom: 30px;
+    }
+    
 }
 /* Tablet screens in portrait and Phones in landscape */
 @media(max-width: 768px){

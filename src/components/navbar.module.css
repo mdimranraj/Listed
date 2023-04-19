@@ -72,6 +72,11 @@
         align-content: flex-start;
         align-items: flex-start;
     }
+    .rightSide{
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 /* Tablet screens in portrait and Phones in landscape */
 @media(max-width: 768px){

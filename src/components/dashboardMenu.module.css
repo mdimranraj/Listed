@@ -48,15 +48,12 @@
 /* small phones */
 @media (max-width: 600px) {
     .mainContainer{
-        height: 20vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-    .menuContainer{
+        height: fit-content;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 20px;
     }
     .menu{
         display: flex;
@@ -64,6 +61,10 @@
     }
     .menuFooter{
         display: flex;
+        align-items: center;
+    }
+    .logout{
+        margin: 0 5px;
     }
 }
 /* Tablet screens in portrait and Phones in landscape */

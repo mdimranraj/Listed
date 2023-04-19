@@ -12,8 +12,9 @@ const Navbar = () => {
                 <input type="text" placeholder='search...'></input>
                 <img src="./search.png" />
             </div>  
-            <img className={style.bell} src="./bell.png" />
+            
             <div className={style.user}>
+              <img className={style.bell} src="./bell.png" />
               <div className={style.userName}>{user.displayName}</div>
               
               <img className={style.userImage} src={user.photoURL} alt=""></img>
