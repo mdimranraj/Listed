@@ -20,15 +20,13 @@ const LoginForm = () => {
     const token = credential.accessToken;
     // The signed-in user info.
     const user = result.user;
-    // setUser(result.user)
     // IdP data available using getAdditionalUserInfo(result)
     toast.success("Login Successful");
-    console.log(user);
-    console.log(user.displayName)
+    // console.log(user);
+    // console.log(user.displayName)
     localStorage.setItem('user', JSON.stringify(user));
 
     navigate("/dashboard");
-    // ...
     
   }).catch((error) => {
     // Handle Errors here.
