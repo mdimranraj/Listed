@@ -100,7 +100,6 @@
     .subheading{
         font-size: 0.8rem;
     }
-
 }
 /* Tablet screens in portrait and Phones in landscape */
 @media(max-width: 768px){

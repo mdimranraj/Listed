@@ -80,3 +80,23 @@
     font-weight: bold;
     font-size: 1rem;
 }
+
+/* small phones */
+@media (max-width: 600px) {
+    .mainContainer{
+        margin: 0;   
+    }   
+    .leftSide{
+        height: fit-content;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+/* Tablet screens in portrait and Phones in landscape */
+@media(max-width: 768px){
+
+}
+/* Tablets in landscape */
+@media(max-width: 992px){
+
+}
