@@ -101,10 +101,37 @@
     .subheading{
         font-size: 0.8rem;
     }
+    .topButtons{
+        margin-right: 20px;
+    }
+    .formContainer{
+        margin-right: 20px;
+    }
+    .noAccount{
+        margin-right: 20px;
+    }
 }
 /* Tablet screens in portrait and Phones in landscape */
 @media(max-width: 768px){
-
+    .mainContainer{
+        margin: 0 20px;
+        width: 100%;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .subheading{
+        font-size: 0.8rem;
+    }
+    .topButtons{
+        margin-right: 20px;
+    }
+    .formContainer{
+        margin-right: 20px;
+    }
+    .noAccount{
+        margin-right: 20px;
+    }
 }
 /* Tablets in landscape */
 @media(max-width: 992px){

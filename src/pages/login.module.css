@@ -71,7 +71,29 @@
 }
 /* Tablet screens in portrait and Phones in landscape */
 @media(max-width: 768px){
-
+    .mainContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        text-align: center;
+        width: 100%;
+    }
+    .leftSide{
+        height: 20vh;
+        background-color: black;
+        color: #FFFFFF;
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .headingLeft{
+        font-size: 8vh;
+    }
+    .rightSide{
+        margin-top: 20px;
+        height: fit-content;  
+        width: 100%;
+    }
 }
 /* Tablets in landscape */
 @media(max-width: 992px){
